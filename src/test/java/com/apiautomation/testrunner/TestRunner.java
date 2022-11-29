@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-            features = "src/test/resources/feature/GetApi.feature",
+            features = "src/test/resources/feature/UserApi.feature",
         glue = "com.apiautomation.step",
         plugin = "html:target/cucumber-reports/Cucumber.html"
     )
